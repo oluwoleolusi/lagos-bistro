@@ -23,7 +23,7 @@ export default function About() {
       <section className="border-b border-line">
         <div className="grid lg:grid-cols-2">
           <img
-            src="/images/about-story.jpg"
+            src={`${import.meta.env.BASE_URL}images/about-story.jpg`}
             alt="Archive photograph of early recipe development for Lagos Bistro"
             className="h-[42vh] w-full object-cover lg:h-full lg:min-h-[480px]"
             loading="lazy"
@@ -62,7 +62,7 @@ export default function About() {
             </p>
           </div>
           <img
-            src="/images/about-hands.jpg"
+            src={`${import.meta.env.BASE_URL}images/about-hands.jpg`}
             alt="Detail of prep work in the Lagos Bistro kitchen"
             className="aspect-[4/5] w-full object-cover"
             loading="lazy"
@@ -73,7 +73,7 @@ export default function About() {
       <section className="section-pad border-b border-line">
         <div className="container-editorial grid gap-10 lg:grid-cols-[0.9fr_1.4fr] lg:gap-16">
           <img
-            src="/images/chef.jpg"
+            src={`${import.meta.env.BASE_URL}images/chef.jpg`}
             alt="Portrait of the head chef at Lagos Bistro"
             className="aspect-[4/5] w-full object-cover"
             loading="lazy"

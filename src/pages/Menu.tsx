@@ -12,7 +12,7 @@ export default function Menu() {
     <>
       <section className="relative">
         <img
-          src="/images/menu-header.jpg"
+          src={`${import.meta.env.BASE_URL}images/menu-header.jpg`}
           alt=""
           className="h-56 w-full object-cover sm:h-72"
         />

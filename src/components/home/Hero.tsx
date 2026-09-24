@@ -25,7 +25,7 @@ export default function Hero() {
 
       <div className="order-1 lg:order-2">
         <img
-          src="/images/hero.jpg"
+          src={`${import.meta.env.BASE_URL}images/hero.jpg`}
           alt="The dining room at Lagos Bistro, set for evening service"
           className="h-[52vh] w-full object-cover sm:h-[64vh] lg:h-full lg:min-h-[640px]"
           width={1920}

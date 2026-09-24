@@ -170,28 +170,28 @@ export const featuredDishes: FeaturedDish[] = [
     description:
       'A twelve-hour braise finished under the grill in a yaji crust, set over charred corn purée.',
     price: 24500,
-    image: '/images/dish-01.jpg',
+    image: `${import.meta.env.BASE_URL}images/dish-01.jpg`,
   },
   {
     id: 'feat-2',
     name: 'Smoked pepper prawns',
     description: 'Chargrilled prawns in ata rodo butter, lime, and coriander oil.',
     price: 12000,
-    image: '/images/dish-02.jpg',
+    image: `${import.meta.env.BASE_URL}images/dish-02.jpg`,
   },
   {
     id: 'feat-3',
     name: 'Ofada rice risotto',
     description: 'Ofada rice cooked slow in ayamase sauce, confit assorted meats.',
     price: 19000,
-    image: '/images/dish-03.jpg',
+    image: `${import.meta.env.BASE_URL}images/dish-03.jpg`,
   },
   {
     id: 'feat-4',
     name: 'Zobo-poached pear',
     description: 'Hibiscus-poached pear, ginger cream, candied orange.',
     price: 6000,
-    image: '/images/dish-04.jpg',
+    image: `${import.meta.env.BASE_URL}images/dish-04.jpg`,
   },
 ]
 

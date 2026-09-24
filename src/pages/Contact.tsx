@@ -12,7 +12,7 @@ export default function Contact() {
           </h1>
 
           <img
-            src="/images/contact-map.jpg"
+            src={`${import.meta.env.BASE_URL}images/contact-map.jpg`}
             alt="Map placeholder marking Lagos Bistro on Ozumba Mbadiwe Avenue, Victoria Island"
             className="mt-8 aspect-[7/5] w-full object-cover"
             loading="lazy"

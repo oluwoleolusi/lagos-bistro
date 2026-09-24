@@ -3,7 +3,7 @@ export default function Atmosphere() {
     <section className="border-b border-line">
       <div className="grid lg:grid-cols-[1.3fr_0.85fr]">
         <img
-          src="/images/interior.jpg"
+          src={`${import.meta.env.BASE_URL}images/interior.jpg`}
           alt="The dining room at Lagos Bistro in the evening, low lighting over close-set tables"
           className="h-[50vh] w-full object-cover lg:h-full lg:min-h-[520px]"
           width={1800}
